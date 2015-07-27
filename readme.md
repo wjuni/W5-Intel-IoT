@@ -107,9 +107,9 @@
 
 4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_yuTXnxI4UWc
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=yuTXnxI4UWc
 " target="_blank"><img src="http://img.youtube.com/vi/yuTXnxI4UWc/0.jpg" 
-width="560" height="315" border="10" /></a>
+width="640" height="360" border="10" /></a>
 
 5. `LB_BTserver.py` 를 Edison 내부로 다운로드합니다. 
 
