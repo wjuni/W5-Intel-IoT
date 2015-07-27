@@ -137,16 +137,14 @@ rfcomm listen /dev/rfcomm0 22
 * Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
 
 # 3D 프린팅
-<table>
-	<tr>
-<td style="float: left; width: 50%; text-align: center">
-	<img src="./images/3d_print_1.jpg" width="45%"/>
-</td>
-<td style="float: left; width: 50%; text-align: center">
-	<img src="./images/3d_print_2.jpg" width="45%"/>
-</td>
-</tr>
-</table><br>
+<div>
+<div style="float: left; width: 50%; text-align: center">
+	<img src="./images/3d_print_1.jpg" width="40%"/>
+</div>
+<div style="float: left; width: 50%; text-align: center">
+	<img src="./images/3d_print_2.jpg" width="40%"/>
+</div>
+</div><br>
 
 3D 프린터를 사용해서 시스템에 필요한 하드웨어 부품을 제작하였습니다.
 
