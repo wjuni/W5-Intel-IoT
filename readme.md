@@ -1,6 +1,6 @@
 #LitmusBioLabs XDKAppController
 
-![](./images/w5_logo.png =500x)
+![](./images/w5_logo.png)
 
 #시스템 소개
 
@@ -54,7 +54,7 @@
 
 	* 에러가 발생할 경우 새로운 세션에서 서버-클라이언트를 별도로 실행시켜 줍니다.
 
-9. 서버가 작동하면 웹 브라우저에서 `http://edisonipaddr:8080`으로 접속하여 실시간 웹캠 스트림을 받을 수 있습니다.
+9. 서버가 작동하면 웹 브라우저에서 `http://edisonipaddr:8081080`으로 접속하여 실시간 웹캠 스트림을 받을 수 있습니다.
 
 
 ## 2. WiFi 모드 셋업
