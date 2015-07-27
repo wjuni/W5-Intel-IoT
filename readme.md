@@ -139,10 +139,10 @@ rfcomm listen /dev/rfcomm0 22
 # 3D 프린팅
 <div>
 <div style="float: left; width: 50%; text-align: center">
-	<img src="./images/3d_print_1.jpg" width="90%"/>
+	<img src="./images/3d_print_1.jpg" width="45%"/>
 </div>
 <div style="float: left; width: 50%; text-align: center">
-	<img src="./images/3d_print_2.jpg" width="90%"/>
+	<img src="./images/3d_print_2.jpg" width="45%"/>
 </div>
 </div><br>
 
