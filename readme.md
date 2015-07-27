@@ -73,7 +73,7 @@ opkg install bluez5-dev
 opkg install bluez5-testtools
 ``` 
 
-`/usr/lib/bluez/test/simple-agent` 의 내용 중 `def RequestPinCode(self, device)`의 내용을 아래와 같이 바꿔 줍니다.
+`/usr/lib/bluez/test/simple-agent` 의 내용 중 `def RequestPinCode(self, device):`의 내용을 아래와 같이 바꿔 줍니다.
 
 ```
 def RequestPinCode(self, device):
