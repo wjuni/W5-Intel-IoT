@@ -2,7 +2,7 @@
 <div width="100%" align="center" ><img src ="./images/w5_logo.png" 	align="middle" width ="50%"/></div>
 #시스템 소개	
 
-## 1. 검사 이유
+## 1. 총대장균군 검사
 <div width="100%" align="center" ><img src ="./images/necessity.jpg" align="middle"/></div>
 <BR>
 &nbsp;총대장균군은 사람과 동물의 장 내에서 사는 대장균과 관련된 세균들을 총칭합니다.
@@ -38,7 +38,7 @@
 
 2. Intel XDK IoT edition을 실행한 후 [OPEN AN INTEL XDK PROJECT] 버튼을 눌러 App 폴더 아래의 프로젝트 파일을 불러옵니다.
 
-![](./images/intel_xdk.png)		
+	![](./images/intel_xdk.png)		
 
 3. [BUILD] 탭에서 [Android Build]를 선택한 후, [Upload Project]를 선택하여 빌드 서버에 프로젝트 파일을 업로드합니다.
 
@@ -140,5 +140,4 @@ Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
 
 시스템 전원을 넣은 후 필요한 setup을 자동화시키고자 계획중입니다. 표준 식수 대장균 검사법에 맞는 검사량을 처리하고 충분히 긴 시간 동안 독립적으로 작동 가능하도록 시스템 용량을 늘릴 계획입니다.
 
-# Demo 동영상
-
+# [Demo 동영상]()
