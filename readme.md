@@ -26,10 +26,10 @@ Git Clone 후 Intel XDK IoT edition에서 App 폴더 아래의 프로젝트 파�
 ## 1. 웹캠 스트림 서버 셋업
 
 1. 필요한 패키지들을 설치합니다.
-```
-opkg install git
-opkg install kernel-module-uvcvideo
-```
+	```
+	opkg install git
+	opkg install kernel-module-uvcvideo
+	```
 
 2. Arduino expansion 보드의 스위치를 USB 허브 방향으로 밀어줍니다.
 
