@@ -3,9 +3,7 @@
 #시스템 소개	
 
 ## 1. 검사 이유
-<div width="100%" align="center" ><img src ="./images/necessity.jpg" align="middle"/></div>
-
-
+<div width="100%" align="center" ><img src ="./images/necessity.jpg" align="middle" width ="70%"/></div>
 
 &nbsp;총대장균군은 사람과 동물의 장 내에서 사는 대장균과 관련된 세균들을 총칭합니다.
 대장균군 자체는 그리 병원성이 세진 않지만 토양과 지하수의 분변오염 지표로 사용됩니다.
