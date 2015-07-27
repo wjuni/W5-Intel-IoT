@@ -18,7 +18,10 @@
 
 #사용법
 ## 0. App 빌드
-`git clone` 한 다음 Intel XDK IoT edition을 킨 후 App 폴더 밑의 프로젝트 파일을 import 하면 됩니다.
+```
+git clone --recursive https://github.com/~~.git
+```
+Git Clone 후 Intel XDK IoT edition - [Start A New Project]에서 App 폴더 아래의 프로젝트 파일을 import 하면 됩니다.
 
 ## 1. 웹캠 스트림 서버 셋업
 
