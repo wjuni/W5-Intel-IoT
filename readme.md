@@ -155,6 +155,7 @@ rfcomm listen /dev/rfcomm0 22
 
 # 개발예정사항
 
-시스템 전원을 넣은 후 필요한 setup을 자동화시키고자 계획중입니다. 표준 식수 대장균 검사법에 맞는 검사량을 처리하고 충분히 긴 시간 동안 독립적으로 작동 가능하도록 시스템 용량을 늘릴 계획입니다.
+시스템 전원을 넣은 후 필요한 Setup을 자동화 시키고자 계획중입니다. 표준 식수 대장균 검사법에 맞는 검사량을 처리하고 충분히 긴 시간 동안 독립적으로 작동 가능하도록 시스템 용량을 늘릴 계획입니다.
 
 # [Demo 동영상](https://www.youtube.com/watch?v=JoaMHBr12jg)
+[![Demo 동영상](http://img.youtube.com/vi/JoaMHBr12jg/0.jpg)](http://www.youtube.com/watch?v=JoaMHBr12jg)
