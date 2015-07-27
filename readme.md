@@ -1,5 +1,5 @@
 #LitmusBioLabs XDKAppController
-<img src ="./images/w5_logo.png" align="middle" width ="50%"/>
+<div width="100%"><img src ="./images/w5_logo.png" 	align="middle" width ="50%"/></div>
 #시스템 소개	
 
 ## 1. 검사 이유
