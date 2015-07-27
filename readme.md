@@ -58,8 +58,6 @@
 ## 2. WiFi 모드 셋업
 
 1. [Wi-Fi 연결 동영상](https://www.youtube.com/watch?v=6PUfcXDWjFY)을 참조하여 무선공유기에 Edison을 연결합니다.
- 
-YT("https://www.youtube.com/embed/6PUfcXDWjFY", print = TRUE)
 
 2. `index.html` 및 `LB_server.py`를 Edison 내부로 다운로드합니다. 
 
@@ -92,8 +90,6 @@ YT("https://www.youtube.com/embed/6PUfcXDWjFY", print = TRUE)
 3. `chmod +x /usr/lib/bluez/test/simple-agent`를 실행합니다.
 
 4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
-
-YT("https://www.youtube.com/embed/yuTXnxI4UWc", print = TRUE)
 
 5. `LB_BTserver.py` 를 Edison 내부로 다운로드합니다. 
 
