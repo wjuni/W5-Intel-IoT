@@ -38,7 +38,7 @@ Arduino expansion 보드의 스위치를 USB 허브 쪽으로 밀어줍니다.
 `./edi-cam/web/server`에서 `npm install` 실행합니다.
 
 `./edi-cam/web/client/index.html` 에서 `var wsUrl = 'ws://myedison.local:8084/';` 부분의 `myedison`을 
-hostname으로 수정합니다. `(default edison)`
+hostname으로 수정합니다. (default edison)
 
 `node ./edi-cam/web/server/server.js ||  ./edi-cam/web/client/do_ffmpeg.sh` 를 실행시켜 서버를 작동시킵니다.
 
@@ -106,7 +106,7 @@ rfcomm listen /dev/rfcomm0 22
 
 버튼을 누르면 해당 모터가 작동합니다.
 
-# - 플랫폼
+# 플랫폼
 
 Intel Edison 과 Arduino expansion 보드를 사용하였으며,
 추가 Arduino 와 직접 개발한 회로 시스템을 사용했습니다.
@@ -115,11 +115,11 @@ Intel Edison 과 Arduino expansion 보드를 사용하였으며,
 
 Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
 
-# - 개발예정사항
+# 개발예정사항
 
 시스템 전원을 넣은 후 필요한 setup을 자동화시키고자 계획중입니다.
 표준 식수 대장균 검사법에 맞는 검사량을 처리하고 
 충분히 긴 시간 동안 독립적으로 작동 가능하도록 시스템 용량을 늘릴 계획입니다.
 
-# - Demo 동영상
+# Demo 동영상
 
