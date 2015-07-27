@@ -33,7 +33,7 @@
 1. 아래 명령어를 실행하여 Git Clone을 수행합니다.
 
 	```
-	git clone --recursive https://github.com/~~.git
+	git clone --recursive https://github.com/W5-KAIST/Litmus-BioLabs.git
 	```	
 
 2. Intel XDK IoT edition을 실행한 후 [OPEN AN INTEL XDK PROJECT] 버튼을 눌러 App 폴더 아래의 프로젝트 파일을 불러옵니다.
