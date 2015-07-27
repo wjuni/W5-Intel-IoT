@@ -45,48 +45,48 @@ Git Clone 후 Intel XDK IoT edition에서 App 폴더 아래의 프로젝트 파�
 
 8. `node ./edi-cam/web/server/server.js || ./edi-cam/web/client/do_ffmpeg.sh` 를 실행시켜 서버를 작동시킵니다.
 
-* 에러가 발생할 경우 새로운 세션에서 서버-클라이언트를 별도로 실행시켜 줍니다.
+	* 에러가 발생할 경우 새로운 세션에서 서버-클라이언트를 별도로 실행시켜 줍니다.
 
-* 서버가 작동하면 웹 브라우저에서 `http://edisonipaddr:8080`으로 접속하여 실시간 웹캠 스트림을 받을 수 있습니다.
+9. 서버가 작동하면 웹 브라우저에서 `http://edisonipaddr:8080`으로 접속하여 실시간 웹캠 스트림을 받을 수 있습니다.
 
 
 ## 2. WiFi 모드 셋업
 
-[Wi-Fi 연결 동영상](https://www.youtube.com/watch?v=6PUfcXDWjFY)을 참조하여 무선공유기에 Edison을 연결합니다.
+1. [Wi-Fi 연결 동영상](https://www.youtube.com/watch?v=6PUfcXDWjFY)을 참조하여 무선공유기에 Edison을 연결합니다.
 
-`index.html` 및 `LB_server.py`를 Edison 내부로 다운로드합니다. 
+2. `index.html` 및 `LB_server.py`를 Edison 내부로 다운로드합니다. 
 
 ## 3. WiFi 모드 사용법
 
-`python LB_server.py`를 실행합니다.
+1. `python LB_server.py`를 실행합니다.
 
-App을 켜고 WiFi 모드 탭을 클릭합니다.
+2. App을 켜고 WiFi 모드 탭을 클릭합니다.
 
-App의 주소창에 `http://edisonipaddr:8081` 을 입력하고 버튼을 누르면 해당 모터가 작동합니다.
+3. App의 주소창에 `http://edisonipaddr:8081` 을 입력하고 버튼을 누르면 해당 모터가 작동합니다.
 
-웹 브라우저로 `http://edisonipaddr:8081` 에 접속할 경우 웹 제어 패널 (`index.html`) 이 작동합니다.
+4. 웹 브라우저로 `http://edisonipaddr:8081` 에 접속할 경우 웹 제어 패널 (`index.html`) 이 작동합니다.
 
 ## 4. BT 모드 셋업
 
-필요한 패키지들을 설치합니다.  
-```
-opkg install bluez5-dev
-opkg install bluez5-testtools
-``` 
+1. 필요한 패키지들을 설치합니다.  
+	```
+	opkg install bluez5-dev
+	opkg install bluez5-testtools
+	``` 
 
-`/usr/lib/bluez/test/simple-agent`의 내용 중 `def RequestPinCode(self, device):`의 내용을 아래와 같이 변경합니다.
+2. /usr/lib/bluez/test/simple-agent`의 내용 중 `def RequestPinCode(self, device):`의 내용을 아래와 같이 변경합니다.
 
-```
-def RequestPinCode(self, device):
-print("RequestPinCode (%s)" % (device))
-return "1234"
-```
+	```
+	def RequestPinCode(self, device):
+	print("RequestPinCode (%s)" % (device))
+	return "1234"
+	```
 
-`chmod +x /usr/lib/bluez/test/simple-agent`를 실행합니다.
+3. `chmod +x /usr/lib/bluez/test/simple-agent`를 실행합니다.
 
-[페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
+4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
 
-`LB_BTserver.py` 를 `Edison` 내부로 다운로드합니다. 
+5. `LB_BTserver.py` 를 `Edison` 내부로 다운로드합니다. 
 
 ## 5. BT 모드 사용법
 
@@ -101,11 +101,11 @@ sdptool add --channel=22 SP
 rfcomm listen /dev/rfcomm0 22
 ```
 
-앱을 BT 모드로 바꾸고 Init_BT를 누릅니다. 
+1. 앱을 BT 모드로 바꾸고 Init_BT를 누릅니다. 
 
-주변 장치 검색 목록이 뜨면 Connect 버튼을 클릭합니다.
+2. 주변 장치 검색 목록이 뜨면 Connect 버튼을 클릭합니다.
 
-버튼을 누르면 해당 모터가 작동합니다.
+3. 버튼을 누르면 해당 모터가 작동합니다.
 
 # 플랫폼
 
