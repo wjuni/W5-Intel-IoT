@@ -31,12 +31,14 @@
 #사용법
 ## 0. App 빌드
 1. 아래 명령어를 실행하여 Git Clone을 수행합니다.
+
 	```
 	git clone --recursive https://github.com/~~.git
 	```	
+
 2. Intel XDK IoT edition을 실행한 후 [OPEN AN INTEL XDK PROJECT] 버튼을 눌러 App 폴더 아래의 프로젝트 파일을 불러옵니다.
 
-![](./images/intel_xdk.png)
+![](./images/intel_xdk.png)	
 
 3. [BUILD] 탭에서 [Android Build]를 선택한 후, [Upload Project]를 선택하여 빌드 서버에 프로젝트 파일을 업로드합니다.
 
