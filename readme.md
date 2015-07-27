@@ -107,8 +107,6 @@
 
 4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/yuTXnxI4UWc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
 5. `LB_BTserver.py` 를 Edison 내부로 다운로드합니다. 
 
 ## 5. BT 모드 사용법
@@ -132,11 +130,11 @@ rfcomm listen /dev/rfcomm0 22
 
 # 플랫폼
 
-Intel Edison 과 Arduino expansion 보드를 사용하였으며, 추가 Arduino 와 직접 개발한 회로 시스템을 사용했습니다.
+* Intel Edison 과 Arduino expansion 보드를 사용하였으며, 추가 Arduino 와 직접 개발한 회로 시스템을 사용했습니다.
 
-앱은 Intel XDK IoT Edition을 이용하여 개발되었습니다.
+* 앱은 Intel XDK IoT Edition을 이용하여 개발되었습니다.
 
-Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
+* Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
 
 # 개발예정사항
 
