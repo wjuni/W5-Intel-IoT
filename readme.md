@@ -1,6 +1,6 @@
 #LitmusBioLabs XDKAppController
 
-![](https://raw.githubusercontent.com/wjuni/W5-Intel-IoT/master/images/w5_logo.png)
+![](./images/w5_logo.png =500x)
 
 #시스템 소개
 
@@ -18,10 +18,17 @@
 
 #사용법
 ## 0. App 빌드
-```
-git clone --recursive https://github.com/~~.git
-```
-Git Clone 후 Intel XDK IoT edition에서 App 폴더 아래의 프로젝트 파일을 열면 됩니다.
+1. 아래 명령어를 실행하여 Git Clone을 수행합니다.
+	```
+	git clone --recursive https://github.com/~~.git
+	```
+2. Intel XDK IoT edition을 실행한 후 [OPEN AN INTEL XDK PROJECT] 버튼을 눌러 App 폴더 아래의 프로젝트 파일을 불러옵니다.
+
+![](./images/intel_xdk.png)
+
+3. [BUILD] 탭에서 [Android Build]를 선택한 후, [Upload Project]를 선택하여 빌드 서버에 프로젝트 파일을 업로드합니다.
+
+4. [Build App Now] 버튼을 눌러 빌드가 완료되면, APK 파일을 다운로드하여 스마트폰에 설치합니다.
 
 ## 1. 웹캠 스트림 서버 셋업
 
@@ -74,7 +81,7 @@ Git Clone 후 Intel XDK IoT edition에서 App 폴더 아래의 프로젝트 파�
 	opkg install bluez5-testtools
 	``` 
 
-2. /usr/lib/bluez/test/simple-agent`의 내용 중 `def RequestPinCode(self, device):`의 내용을 아래와 같이 변경합니다.
+2. `/usr/lib/bluez/test/simple-agent`의 내용 중 `def RequestPinCode(self, device):`의 내용을 아래와 같이 변경합니다.
 
 	```
 	def RequestPinCode(self, device):
@@ -86,7 +93,7 @@ Git Clone 후 Intel XDK IoT edition에서 App 폴더 아래의 프로젝트 파�
 
 4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
 
-5. `LB_BTserver.py` 를 `Edison` 내부로 다운로드합니다. 
+5. `LB_BTserver.py` 를 Edison 내부로 다운로드합니다. 
 
 ## 5. BT 모드 사용법
 
