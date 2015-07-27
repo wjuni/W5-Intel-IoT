@@ -107,6 +107,10 @@
 
 4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_yuTXnxI4UWc
+" target="_blank"><img src="http://img.youtube.com/vi/yuTXnxI4UWc/0.jpg" 
+width="560" height="315" border="10" /></a>
+
 5. `LB_BTserver.py` 를 Edison 내부로 다운로드합니다. 
 
 ## 5. BT 모드 사용법
@@ -140,4 +144,4 @@ Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
 
 시스템 전원을 넣은 후 필요한 setup을 자동화시키고자 계획중입니다. 표준 식수 대장균 검사법에 맞는 검사량을 처리하고 충분히 긴 시간 동안 독립적으로 작동 가능하도록 시스템 용량을 늘릴 계획입니다.
 
-# [Demo 동영상]()
+# [Demo 동영상](https://	)
