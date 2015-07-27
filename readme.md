@@ -4,7 +4,7 @@
 
 ## 1. 총대장균군 검사
 <div width="100%" align="center" ><img src ="./images/necessity.jpg" align="middle"/></div>
-<BR>
+<br>
 &nbsp;총대장균군은 사람과 동물의 장 내에서 사는 대장균과 관련된 세균들을 총칭합니다.
 대장균군 자체는 그리 병원성이 세진 않지만 토양과 지하수의 분변오염 지표로 사용됩니다.
 대장균군의 검출은 다른 병원균 오염의 가능성이 있음을 의미하기도 합니다.
@@ -135,6 +135,26 @@ rfcomm listen /dev/rfcomm0 22
 * 앱은 Intel XDK IoT Edition을 이용하여 개발되었습니다.
 
 * Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
+
+# 3D 프린팅
+<div>
+<div style="float: left; width: 50%; text-align: center">
+	<img src="./images/3d_print_1.jpg" width="90%"/>
+</div>
+<div style="float: left; width: 50%; text-align: center">
+	<img src="./images/3d_print_2.jpg" width="90%"/>
+</div>
+</div><br>
+
+3D 프린터를 사용해서 시스템에 필요한 하드웨어 부품을 제작하였습니다.
+
+회로 기판을 프레임에 고정시키기 위한 클램프를 설계하였고 웹캠을 어딘가에 고정하기 편리하도록 웹캠 홀더를 제작하였습니다.
+
+두 부품 모두 ABS 필라멘트를 사용해서 프린팅하였습니다. 
+
+제작한 부품의 3D 모델링 파일 (STL) 은 해외 3D 프린팅 용 모델 공유 사이트인 thingiverse에 업로드해서 공유했습니다.
+
+3D 모델링 파일은 [여기](https://)에서 받으실 수 있습니다.
 
 # 개발예정사항
 
