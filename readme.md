@@ -134,24 +134,20 @@ rfcomm listen /dev/rfcomm0 22
 
 * 앱은 Intel XDK IoT Edition을 이용하여 개발되었습니다.
 
-* Android 4.4.2 (kernel 3.4.0) LG G2 폰에서 테스트 되었습니다.
+* Android 4.4.2 (kernel 3.4.0) LG G2에서 테스트 되었습니다.
 
 # 3D 프린팅
 
 <div width="75%" align="center" ><img src ="./images/3d_print_1.jpg" align="middle"/></div>
 <br>
 <div width="75%" align="center" ><img src ="./images/3d_print_2.jpg" align="middle"/></div>
+<br>
 
+&nbsp;3D 프린터를 사용해서 시스템에 필요한 하드웨어 부품을 제작하였습니다.
 
-3D 프린터를 사용해서 시스템에 필요한 하드웨어 부품을 제작하였습니다.
+&nbsp;회로 기판을 프레임에 고정시키기 위한 클램프를 설계하였고 웹캠을 어딘가에 고정하기 편리하도록 웹캠 홀더를 제작하였으며, 두 부품 모두 ABS 필라멘트를 사용해서 프린팅하였습니다. 
 
-회로 기판을 프레임에 고정시키기 위한 클램프를 설계하였고 웹캠을 어딘가에 고정하기 편리하도록 웹캠 홀더를 제작하였습니다.
-
-두 부품 모두 ABS 필라멘트를 사용해서 프린팅하였습니다. 
-
-제작한 부품의 3D 모델링 파일 (STL) 은 해외 3D 프린팅 용 모델 공유 사이트인 thingiverse에 업로드해서 공유했습니다.
-
-3D 모델링 파일은 [여기](https://)에서 받으실 수 있습니다.
+&nbsp;제작한 부품의 3D 모델링 파일 (STL) 은 해외 3D 프린팅 용 모델 공유 사이트인 thingiverse에 업로드해서 공유하였습니다. 3D 모델링 파일은 [여기](https://)에서 받으실 수 있습니다.
 
 # 개발예정사항
 
