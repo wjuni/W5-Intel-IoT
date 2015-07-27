@@ -59,7 +59,7 @@
 
 1. [Wi-Fi 연결 동영상](https://www.youtube.com/watch?v=6PUfcXDWjFY)을 참조하여 무선공유기에 Edison을 연결합니다.
  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6PUfcXDWjFY" frameborder="0" allowfullscreen></iframe>
+YT(="https://www.youtube.com/embed/6PUfcXDWjFY", print = TRUE)
 
 2. `index.html` 및 `LB_server.py`를 Edison 내부로 다운로드합니다. 
 
@@ -93,7 +93,7 @@
 
 4. [페어링 동영상](https://www.youtube.com/watch?v=yuTXnxI4UWc)을 참고해서 Edison을 스마트폰과 페어링합니다.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yuTXnxI4UWc" frameborder="0" allowfullscreen></iframe>
+YT(="https://www.youtube.com/embed/yuTXnxI4UWc", print = TRUE)
 
 5. `LB_BTserver.py` 를 Edison 내부로 다운로드합니다. 
 
