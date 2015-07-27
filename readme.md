@@ -1,6 +1,6 @@
 #LitmusBioLabs XDKAppController
 
-![icon](https://raw.githubusercontent.com/wjuni/W5-Intel-IoT/master/images/icon.png)
+![icon](https://raw.githubusercontent.com/wjuni/W5-Intel-IoT/master/images/w5_logo.png)
 
 #시스템 소개
 
